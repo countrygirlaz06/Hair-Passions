@@ -1,0 +1,186 @@
+/* ==========================
+   FILE: css/scratchcustom.css
+   SUPER PRETTY VERSION ✨
+   ========================== */
+
+:root {
+    --cream: #f7f4f2;
+    --blush: #e6cfc3;
+    --taupe: #c4b2aa;
+    --espresso: #3a2f2b;
+    --rose: #a35c4a;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--cream);
+    color: var(--espresso);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+}
+
+/* ---------- NAV ---------- */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--espresso);
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: var(--rose);
+}
+
+/* ---------- SECTIONS ---------- */
+.content-block {
+    max-width: 1100px;
+    margin: auto;
+    padding: 4rem 2rem;
+}
+
+.content-block h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+    color: var(--rose);
+    margin-bottom: 0.5rem;
+}
+
+.content-block h3 {
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.description {
+    max-width: 700px;
+    color: #5a4a45;
+}
+
+/* ---------- INSTAGRAM LINKS ---------- */
+.instagram {
+    margin: 1.5rem 0;
+    font-size: 1.1rem;
+}
+
+.instagram a {
+    color: var(--rose);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.instagram a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- IMAGE GRID ---------- */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+    margin-top: 2rem;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 14px;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-grid img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+
+/* ================= VIDEO SECTION ================= */
+
+.video-section {
+    text-align: center;
+}
+
+.center-heading {
+    text-align: center;
+}
+
+
+.video-wrapper {
+    max-width: 900px;
+    margin: 2.5rem auto 0;
+    aspect-ratio: 16 / 9;
+    background: #000;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.18);
+}
+
+.video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
+/* ---------- TABLEAU SECTION ---------- */
+.tableau-wrapper {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    margin-top: 2rem;
+}
+
+.center-heading {
+    text-align: center;
+}
+
+.tableauPlaceholder {
+    overflow: hidden;
+}
+
+
+/* ---------- NAIL SECTION ---------- */
+.nails {
+    background-color: var(--blush);
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+    text-align: center;
+    padding: 2.5rem 1rem;
+    background-color: white;
+    font-size: 0.9rem;
+    color: #6b5a55;
+}
+
+.footer a {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: var(--rose);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+h2{
+    text-align: left
+}

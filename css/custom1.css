@@ -1,0 +1,32 @@
+body {
+    font-family: 'Candara', cursive, sans-serif;
+    background-color: rgb(251, 239, 225);
+}
+
+h1 {
+    font-family: 'Candara', cursive, sans-serif;
+    color: rgb(251, 239, 225);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Candara', cursive, sans-serif;
+    color: hsl(32, 18%, 31%);
+}
+
+a {
+    font-family: 'Candara', cursive, sans-serif;
+}
+
+.CSFont {
+    font-family: 'Candara', cursive, sans-serif !important;
+}
+
+script {
+    font-family: 'Candara', cursive, sans-serif;
+    color: hsl(33, 16%, 41%)
+}
+
+i {
+    font-family: 'Candara', cursive, sans-serif;
+    color: hsl(33, 16%, 41%)
+}
